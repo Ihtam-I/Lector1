@@ -1,0 +1,10 @@
+COLUMNA | TIPO | LONGITUD | NULLABLE
+------------------------------------
+id | bigint | — | NO
+uuid | uuid | — | NO
+member_code | character varying | 255 | NO
+membership_type | character varying | 255 | NO
+status | character varying | 255 | NO
+fingerprint_data | text | — | YES
+created_at | timestamp without time zone | — | YES
+updated_at | timestamp without time zone | — | YES
